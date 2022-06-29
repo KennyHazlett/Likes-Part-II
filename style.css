@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.container{
+    width: 650px;
+    margin: 0 auto;
+}
+.asgard {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.midguard{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.hell{
+    display: flex;
+}
+.mjonir{
+    flex: 1;
+}
+.worthy{
+    border: solid black;
+    padding: 20px;
+    text-align: center;
+}
+.mjonir p{
+    margin: 20px;
+}
+.head{
+    height: 100px;
+    margin: 20px;
+}
+.stormbreaker{
+    flex: 2;
+    margin-left: 30px;
+}
+.fury{
+    padding: 20px;
+    margin-bottom: 30px;
+    border: solid black;
+    font-size: 1.2rem;
+}
+.shield{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.likes{
+    padding: 20px;
+}
+.likebutton {
+    background: yellow;
+    padding: 4px 8px;
+    font-size: 1.2rem;
+    border: solid black;
+    border-radius: 0px;
+    box-shadow: 2px 2px #000;
+    margin-left: 20px;
+}
